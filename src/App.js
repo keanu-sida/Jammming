@@ -15,14 +15,6 @@ function App(props) {
         <img src={logo} className="App-logo" alt="logo" />
         <SearchBar onSearch={handleSearch}/>
         <SearchResults />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
         <p>{props.name}</p>
       </header>
     </div>
